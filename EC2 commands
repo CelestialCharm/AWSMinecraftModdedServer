@@ -8,7 +8,7 @@ sudo chown -R ec2-user:ec2-user /minecraft
 
 cd /minecraft
 
-aws s3 cp s3://<BucketName>/setup/<Enter forge installer jar> /minecraft/<Enter forge installer jar>
+aws s3 cp s3://minecraftserver-free-callmealyx/setup/forge-1.19.2-43.3.0-installer (2).jar> /minecraft/forge-1.19.2-43.3.0-installer (2).jar
 
 java -jar <Enter forge installer jar> --installServer
 
